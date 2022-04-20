@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Head from 'next/head';
 import styles from '../../styles/Home.module.css';
 
@@ -10,9 +11,11 @@ export default function DeskResearch() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <a href="/">
-        <p>Voltar</p>
-      </a>
+      <Link href="/">
+        <a>
+          <p>Voltar</p>
+        </a>
+      </Link>
 
       <main className={styles.main}>
         <h1 className={styles.title}>

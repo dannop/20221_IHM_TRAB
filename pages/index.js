@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Head from 'next/head'
 // import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -22,10 +23,12 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="desk_research" className={styles.card}>
-            <h2>Desk research &rarr;</h2>
-            <p>Certezas, suposições e dúvidas.</p>
-          </a>
+          <Link href="desk_research">
+            <a className={styles.card}>
+              <h2>Desk research &rarr;</h2>
+              <p>Certezas, suposições e dúvidas.</p>
+            </a>
+          </Link>
 
           {/* <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
