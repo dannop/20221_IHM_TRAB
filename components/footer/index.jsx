@@ -12,7 +12,7 @@ export default function Footer() {
           Feito por Daniel Lessa e Eduardo Martins
         </p>
         <p>
-          para Interface Homem Máquina 2022.1
+          para Interface Homem Máquina - 2022.1
         </p>
       </a>
     </footer>

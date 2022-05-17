@@ -92,18 +92,17 @@ export default function AnaliseCompetitiva() {
   const createCompetitor = (competitor) => {
     return (
       <tr key={competitor.id}>
-        <td>
+        <td className='align-middle'>
           <Link href={competitor.link}>
             <a target="_blank">
               <Image src={competitor.logo} alt={`${competitor.name} Logo`} />
-              <p>{competitor.name}</p>
             </a>
           </Link>
         </td>
-        <td>{competitor.description}</td>
-        <td>{createList(competitor.positives)}</td>
-        <td>{createList(competitor.negatives)}</td>
-        <td>{competitor.conclusion}</td>
+        <td className='align-middle'>{competitor.description}</td>
+        <td className='align-middle'>{createList(competitor.positives)}</td>
+        <td className='align-middle'>{createList(competitor.negatives)}</td>
+        <td className='align-middle'>{competitor.conclusion}</td>
       </tr>
     );
   }
@@ -118,19 +117,23 @@ export default function AnaliseCompetitiva() {
 
       <BackNav href="/" />
 
-      <main className={styles.main}>
+      <main className={`${styles.main} container`}>
         <h1 className={styles.title}>
           Análise Competitiva
         </h1> 
 
-        <table>
-          <thead>
+        <p className={styles.description}>
+          Concorrentes que possuem modelos de negócio e idéias inspiradores para o projeto
+        </p>
+
+        <table className='table table-bordered'>
+          <thead className='thead-dark'>
             <tr>
-              <th>Concorrente</th>
-              <th>Descrição</th>
-              <th>Pontos Positivos</th>
-              <th>Pontos Negativos</th>
-              <th>Conclusão</th>
+              <th scope='col'>Concorrente</th>
+              <th scope='col'>Descrição</th>
+              <th scope='col'>Pontos Positivos</th>
+              <th scope='col'>Pontos Negativos</th>
+              <th scope='col'>Conclusão</th>
             </tr>
           </thead>
 
