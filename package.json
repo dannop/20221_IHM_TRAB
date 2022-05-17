@@ -1,6 +1,6 @@
 {
-  "name": "payme",
-  "version": "0.1.1",
+  "name": "pay.me",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",

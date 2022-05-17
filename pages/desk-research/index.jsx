@@ -1,6 +1,8 @@
-import Link from 'next/link';
 import Head from 'next/head';
 import styles from '../../styles/Home.module.css';
+
+import Footer from '../../components/footer';
+import BackNav from '../../components/back-nav';
 
 export default function DeskResearch() {
   return (
@@ -11,11 +13,7 @@ export default function DeskResearch() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Link href="/">
-        <a>
-          <p>Voltar</p>
-        </a>
-      </Link>
+      <BackNav href="/" />
 
       <main className={styles.main}>
         <h1 className={styles.title}>
@@ -49,19 +47,7 @@ export default function DeskResearch() {
         </div>  
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="http://www.ic.uff.br/index.php/pt/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Feito por{' '}
-          {/* <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span> */}
-          Daniel Lessa e Eduardo Martins
-        </a>
-      </footer>
+      <Footer />
     </div>
   )
 }
