@@ -42,7 +42,7 @@ export default function DeskResearch() {
           <ul>
             <li>Existe o sentimento de vergonha ao cobrar dinheiro emprestado de um conhecido.</li>
             <li>Eventualmente quem emprestou irá precisar do dinheiro de volta e não terá certeza se vai receber.</li>
-            <li>Um relacionamento pode ser alterado pois irá existir um sentimento de "poder" sobre alguém que possue uma dívida.</li>
+            <li>Um relacionamento pode ser alterado pois irá existir um sentimento de poder sobre alguém que possue uma dívida.</li>
             <li>Planejar o pagamento de uma dívida pode evitar futuros problemas.</li>
           </ul>
 
