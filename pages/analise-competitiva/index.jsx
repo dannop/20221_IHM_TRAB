@@ -81,21 +81,6 @@ export default function AnaliseCompetitiva() {
     }
   ];
 
-  const createPositivesAndNegatives = (max, competitor) => {
-    for (var i = 1; i<=max; i++) {
-      console.log(max, i)
-      return (
-        <tr key={`A${i}`}>
-          <td></td>
-          <td></td>
-          <td>{competitor.positives[i]}</td>
-          <td>{competitor.negatives[i]}</td>
-          <td></td>
-        </tr>
-      )
-    }
-  }
-
   const createList = (list) => {
     return (
       <ol>
