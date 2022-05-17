@@ -96,27 +96,30 @@ export default function AnaliseCompetitiva() {
     }
   }
 
-  const createCompetitor = (competitor) => {
-    const max_height = competitor.positives.length > competitor.negatives.length ? competitor.positives.length : competitor.negatives.length;
-    
+  const createList = (list) => {
     return (
-      <>
-        <tr key={competitor.id}>
-          <td rowSpan={max_height}>
-            <Link href={competitor.link}>
-              <a target="_blank">
-                <Image src={competitor.logo} alt={`${competitor.name} Logo`} />
-                <p>{competitor.name}</p>
-              </a>
-            </Link>
-          </td>
-          <td rowSpan={max_height}>{competitor.description}</td>
-          <td>{competitor.positives[0]}</td>
-          <td>{competitor.negatives[0]}</td>
-          <td rowSpan={max_height}>{competitor.conclusion}</td>
-        </tr>
-        {createPositivesAndNegatives(max_height, competitor)}
-      </>
+      <ol>
+        {list.map((element, index) => <li key={index}>{element}</li>)}
+      </ol>
+    );
+  }
+
+  const createCompetitor = (competitor) => {
+    return (
+      <tr key={competitor.id}>
+        <td>
+          <Link href={competitor.link}>
+            <a target="_blank">
+              <Image src={competitor.logo} alt={`${competitor.name} Logo`} />
+              <p>{competitor.name}</p>
+            </a>
+          </Link>
+        </td>
+        <td>{competitor.description}</td>
+        <td>{createList(competitor.positives)}</td>
+        <td>{createList(competitor.negatives)}</td>
+        <td>{competitor.conclusion}</td>
+      </tr>
     );
   }
    
