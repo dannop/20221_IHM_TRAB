@@ -28,6 +28,12 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
+          <Link href="informacoes">
+            <a className={styles.card}>
+              <h2>Informações &rarr;</h2>
+              <p>How Might We e Metas de Design.</p>
+            </a>
+          </Link>
           <Link href="desk-research">
             <a className={styles.card}>
               <h2>Desk research &rarr;</h2>

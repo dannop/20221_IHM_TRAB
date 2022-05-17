@@ -8,7 +8,7 @@ export default function Entrevista() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Pay.me</title>
+        <title>Pay.me | Entrevista</title>
         <meta name="description" content="Trabalho de IHM" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

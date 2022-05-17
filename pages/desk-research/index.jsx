@@ -20,12 +20,6 @@ export default function DeskResearch() {
           Desk Research
         </h1>
 
-        <p className={styles.description}>
-          <code className={styles.code}>
-            Como podemos ajudar as pessoas a controlarem suas dívidas e planejarem melhor seus gastos, além de lembrar contas futuras e recebimentos pendetes?
-          </code>
-        </p>
-        
         <div className={styles.info}>
           <p>Certezas</p>
           <ul>

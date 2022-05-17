@@ -8,7 +8,7 @@ export default function AnaliseCompetitiva() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Pay.me</title>
+        <title>Pay.me | Análise Competitiva</title>
         <meta name="description" content="Trabalho de IHM" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
