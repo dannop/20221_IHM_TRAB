@@ -24,7 +24,7 @@ export default function Questionario() {
           Perguntas para esclarecer dúvidas relacionadas ao Desk Research e a Análise Competitiva
         </p>
 
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScmsazwfVEpFKnJTF_K28JofXcoX_uAM2rBsLkdec7s2sGoWA/viewform?embedded=true" width="640" height="2100" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScmsazwfVEpFKnJTF_K28JofXcoX_uAM2rBsLkdec7s2sGoWA/viewform?embedded=true" width="640" height="2100" frameBorder="0" marginHeight="0" marginWidth="0">Carregando…</iframe>
       </main>
 
       <Footer />
