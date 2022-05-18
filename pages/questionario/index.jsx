@@ -15,10 +15,14 @@ export default function Questionario() {
 
       <BackNav href="/" />
 
-      <main className={styles.main}>
+      <main className={`${styles.main} container`}>
         <h1 className={styles.title}>
           Questionário
         </h1> 
+
+        <p className={styles.description}>
+          Perguntas para esclarecer dúvidas relacionadas ao Desk Research e a Análise Competitiva
+        </p>
       </main>
 
       <Footer />

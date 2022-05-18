@@ -15,14 +15,14 @@ export default function Informacoes() {
 
       <BackNav href="/" />
 
-      <main className={styles.main}>
+      <main className={`${styles.main} container`}>
         <h1 className={styles.title}>
           HMW - How Might We...
         </h1>
 
         <p className={styles.description}>
           <code className={styles.code}>
-            Como podemos ajudar as pessoas a controlarem suas dívidas, planejando melhor seus gastos, além de lembrar contas futuras e recebimentos pendetes?
+            Como podemos ajudar as pessoas a controlarem suas dívidas,<br/>planejando melhor seus gastos,<br/>e lembrar das contas e recebimentos pendetes?
           </code>
         </p>
 

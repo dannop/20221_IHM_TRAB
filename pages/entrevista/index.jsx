@@ -15,10 +15,14 @@ export default function Entrevista() {
 
       <BackNav href="/" />
 
-      <main className={styles.main}>
+      <main className={`${styles.main} container`}>
         <h1 className={styles.title}>
           Entrevista
         </h1>
+
+        <p className={styles.description}>
+          Técnica escolhida para análise
+        </p>
       </main>
 
       <Footer />

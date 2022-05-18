@@ -15,20 +15,24 @@ export default function DeskResearch() {
 
       <BackNav href="/" />
 
-      <main className={styles.main}>
+      <main className={`${styles.main} container`}>
         <h1 className={styles.title}>
           Desk Research
         </h1>
+
+        <p className={styles.description}>
+          Pesquisa realizada para o desenvolvimento da idéia
+        </p>
 
         <div className={styles.info}>
           <p>Certezas</p>
           <ul>
             <li>Os brasileiros ainda não possuem o hábito de poupar e fazer investimentos.</li>
             <li>Na maior parte dos casos é gerado desconforto ao cobrar dívidas a amigos e familiares.</li>
-            <li>{`Uma pesquisa do Federal Reserve — o banco central dos EUA — em 2019 demonstrou que, frente a uma 
+            <li>Uma pesquisa do Federal Reserve — o banco central dos EUA — em 2019 demonstrou que, frente a uma 
               despesa hipotética de US$ 400 que não pudesse ser paga de imediato, a segunda medida mais comum era pedir 
               emprestado a um amigo ou familiar (a primeira opção foi lançar a dívida no cartão de crédito). Durante a pandemia, 
-              as pessoas podem estar mais propensas a procurar pessoas de confiança para pedir ajuda.`}</li>
+              as pessoas podem estar mais propensas a procurar pessoas de confiança para pedir ajuda.</li>
             <li>De acordo com especialistas Norte Americanos a conversa sobre dinheiro ainda é um tabu na sociedade.</li>
           </ul>
           
