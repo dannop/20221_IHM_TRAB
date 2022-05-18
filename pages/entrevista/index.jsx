@@ -21,7 +21,7 @@ export default function Entrevista() {
         </h1>
 
         <p className={styles.description}>
-          Técnica escolhida para análise
+          Pesquisa realizada para o desenvolvimento da ideia
         </p>
       </main>
 

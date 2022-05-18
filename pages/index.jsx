@@ -61,6 +61,13 @@ export default function Home() {
               <p>Apresentação, aquecimento, parte principal e conclusão.</p>
             </a>
           </Link>
+
+          <Link href="perguntas">
+            <a className={styles.card}>
+              <h2>Perguntas &rarr;</h2>
+              <p>Respostas a perguntas imporantes sobre o processo.</p>
+            </a>
+          </Link>
         </div>
       </main>
 
