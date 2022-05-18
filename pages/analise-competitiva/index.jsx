@@ -44,11 +44,11 @@ export default function AnaliseCompetitiva() {
       positives: [
         'Opção de compartilhar os gastos e cobrar depois, bem parecido com o acompanhamento que será feito;',
         'Conhecido pela sua segurança;',
-        'Fácil utilização;',
+        'Fácil utilização após a fase de adaptação;',
         'Tela de início mostrando as principais funcionalidades de forma bem acessível;'
       ],
       negatives: [
-        'Muitas funcionalidades podendo gerar uma confusão em um primeiro momento;',
+        'Muitas funcionalidades, podendo gerar uma confusão em um primeiro momento;',
         'Em alguns fluxos aparecem muitos dados nas telas, como por exemplo na loja;'
       ],
       conclusion: 'Podemos olhar bastante em como funciona o fluxo de dividir um gasto, pois parece ser bem eficiente e seguro.'
