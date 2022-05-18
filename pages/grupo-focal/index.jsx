@@ -44,7 +44,7 @@ export default function GrupoFocal() {
           <p>Pontos importantes</p>
           <ul>
             <li>Lembretes na semana de vencimento da conta são importantes;</li>
-            <li>O que imprestou dinheiro ficava sem saber como cobrar;</li>
+            <li>O que emprestou dinheiro ficava sem saber como cobrar;</li>
             <li>Esses dados são bem sensíveis e devem ser protegidos;</li>
           </ul>
         </div>
