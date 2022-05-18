@@ -36,7 +36,7 @@ export default function Home() {
           </Link>
           <Link href="desk-research">
             <a className={styles.card}>
-              <h2>Desk research &rarr;</h2>
+              <h2>Desk Research &rarr;</h2>
               <p>Certezas, suposições e dúvidas.</p>
             </a>
           </Link>
