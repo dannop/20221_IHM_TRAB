@@ -1,8 +1,13 @@
 import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
+
 import styles from '../../styles/Home.module.css';
 
 import Footer from '../../components/footer';
 import BackNav from '../../components/back-nav';
+
+import Result from '../../assets/images/result.png'
 
 export default function Questionario() {
   return (
@@ -21,10 +26,20 @@ export default function Questionario() {
         </h1> 
 
         <p className={styles.description}>
-          Perguntas para esclarecer dúvidas relacionadas ao Desk Research e a Análise Competitiva
+          Formulário para esclarecer dúvidas relacionadas ao Desk Research e a Análise Competitiva
         </p>
 
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScmsazwfVEpFKnJTF_K28JofXcoX_uAM2rBsLkdec7s2sGoWA/viewform?embedded=true" width="640" height="2100" frameBorder="0" marginHeight="0" marginWidth="0">Carregando…</iframe>
+        <Link href="https://docs.google.com/forms/d/e/1FAIpQLScmsazwfVEpFKnJTF_K28JofXcoX_uAM2rBsLkdec7s2sGoWA/viewform?usp=sf_link">
+          <a target="_blank">
+            <p>Iniciar Formulário</p>
+          </a>
+        </Link>
+
+        <p className={styles.description}>
+          Resultados
+        </p>
+
+        <Image src={Result} alt={`Resultados do Formulário`} />
       </main>
 
       <Footer />

@@ -51,21 +51,21 @@ export default function Home() {
           <Link href="questionario">
             <a className={styles.card}>
               <h2>Questionário &rarr;</h2>
-              <p>Responda aqui um formulário para auxiliar no projeto.</p>
+              <p>Formulário e resultados.</p>
             </a>
           </Link>
 
-          <Link href="entrevista">
+          <Link href="grupo-focal">
             <a className={styles.card}>
-              <h2>Entrevista &rarr;</h2>
-              <p>Apresentação, aquecimento, parte principal e conclusão.</p>
+              <h2>Grupo Focal &rarr;</h2>
+              <p>Resultados da técnica de análise.</p>
             </a>
           </Link>
 
           <Link href="perguntas">
             <a className={styles.card}>
               <h2>Perguntas &rarr;</h2>
-              <p>Respostas a perguntas imporantes sobre o processo.</p>
+              <p>Pontos importantes sobre o processo.</p>
             </a>
           </Link>
         </div>

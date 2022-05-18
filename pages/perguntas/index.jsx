@@ -21,7 +21,7 @@ export default function Entrevista() {
         </h1>
 
         <p className={styles.description}>
-          Respostas a perguntas imporantes sobre o processo
+          Perguntas e respostas sobre partes importantes do processo de design
         </p>
 
         <div className={styles.info}>
