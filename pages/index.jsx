@@ -62,10 +62,17 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href="perguntas">
+          <Link href="personas">
             <a className={styles.card}>
-              <h2>Perguntas &rarr;</h2>
-              <p>Pontos importantes sobre o processo.</p>
+              <h2>Personas e Cenários &rarr;</h2>
+              <p>Resultados do questionário e grupo focal.</p>
+            </a>
+          </Link>
+
+          <Link href="prototipo">
+            <a className={styles.card}>
+              <h2>Protótipo &rarr;</h2>
+              <p>Fluxo prototipado do Aplicativo.</p>
             </a>
           </Link>
         </div>

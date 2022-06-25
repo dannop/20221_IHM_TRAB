@@ -9,7 +9,7 @@ import BackNav from '../../components/back-nav';
 
 import Result from '../../assets/images/result.png'
 
-export default function Questionario() {
+export default function Personas() {
   return (
     <div className={styles.container}>
       <Head>
