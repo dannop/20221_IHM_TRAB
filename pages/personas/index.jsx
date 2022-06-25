@@ -1,9 +1,14 @@
 import Head from 'next/head';
+import Image from 'next/image';
 
 import styles from '../../styles/Home.module.css';
 
 import Footer from '../../components/footer';
 import BackNav from '../../components/back-nav';
+
+import PersonaFabio from '../../assets/images/FábioPerfil.jpg';
+import PersonaFerdinando from '../../assets/images/FerdinandoPerfil.jpg';
+import PersonaCarla from '../../assets/images/CarlaPerfil.jpg';
 
 export default function Questionario() {
   return (
@@ -21,7 +26,9 @@ export default function Questionario() {
           Personas e Cenários
         </h1> 
 
-
+        <Image src={PersonaFabio} alt={`Persona do Fábio`} />
+        <Image src={PersonaFerdinando} alt={`Persona do Ferdinando`} />
+        <Image src={PersonaCarla} alt={`Persona da Carla`} />
       </main>
 
       <Footer />

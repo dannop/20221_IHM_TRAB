@@ -7,7 +7,7 @@ import styles from '../../styles/Home.module.css';
 import Footer from '../../components/footer';
 import BackNav from '../../components/back-nav';
 
-import Result from '../../assets/images/result.png'
+import Result from '../../assets/images/result.png';
 
 export default function Personas() {
   return (
