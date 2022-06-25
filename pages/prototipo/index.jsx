@@ -21,7 +21,7 @@ export default function Prototipo() {
           Protótipo
         </h1> 
 
-        <iframe className='figmaFrame' width="800" height="1000" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXx4BuLMOO3D334vTWBbyjR%2FPay.me-Aplicativo%3Fpage-id%3D1%253A2%26node-id%3D2%253A68%26viewport%3D2051%252C-2738%252C0.91%26scaling%3Dmin-zoom%26starting-point-node-id%3D2%253A68%26show-proto-sidebar%3D1" allowfullscreen></iframe>
+        <iframe className='figmaFrame' width="800" height="1000" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXx4BuLMOO3D334vTWBbyjR%2FPay.me-Aplicativo%3Fpage-id%3D1%253A2%26node-id%3D2%253A68%26viewport%3D2051%252C-2738%252C0.91%26scaling%3Dmin-zoom%26starting-point-node-id%3D2%253A68%26show-proto-sidebar%3D1" allowFullScreen></iframe>
       </main>
 
       <Footer />
