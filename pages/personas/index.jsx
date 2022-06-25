@@ -130,7 +130,7 @@ export default function Questionario() {
               </ol>
             </li>
             <li>
-              Objetivo: lembrar Fábio do dinheiro emprestado
+              Objetivo: ser lembrada da conta pendente 
               <ol>
                 <li>
                   Método: visualizar na tela de início
