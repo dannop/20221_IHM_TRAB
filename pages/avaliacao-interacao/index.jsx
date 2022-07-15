@@ -41,6 +41,11 @@ export default function AvaliacaoInteracao() {
                 Heatmaps
               </button>
             </a>
+            <a href='/PaymeTermosdeConsentimento.pdf' without rel="noopener noreferrer" target="_blank" className='col-md-12'>
+              <button label="Entrevista" className='btn btn-dark mb-4'>
+                Termos de Consentimento
+              </button>
+            </a>
             <a href='/PaymeScriptEntrevista.pdf' without rel="noopener noreferrer" target="_blank" className='col-md-12'>
               <button label="Entrevista" className='btn btn-dark mb-4'>
                 Script da Entrevista
