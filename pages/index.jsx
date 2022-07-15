@@ -75,6 +75,12 @@ export default function Home() {
               <p>Fluxo prototipado do Aplicativo.</p>
             </a>
           </Link>
+          <Link href="avaliacao-interacao">
+            <a className={styles.card}>
+              <h2>Avaliação da interação &rarr;</h2>
+              <p>First Click, Avaliação Heuristica e Teste de Usabilidade.</p>
+            </a>
+          </Link>
         </div>
       </main>
 
