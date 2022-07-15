@@ -30,7 +30,7 @@ export default function Personas() {
         </p>
 
         <Link href="https://docs.google.com/forms/d/e/1FAIpQLScmsazwfVEpFKnJTF_K28JofXcoX_uAM2rBsLkdec7s2sGoWA/viewform?usp=sf_link">
-          <a target="_blank">
+          <a rel="noopener noreferrer" target="_blank">
             <p>Iniciar Formulário</p>
           </a>
         </Link>

@@ -102,7 +102,7 @@ export default function AnaliseCompetitiva() {
       <tr key={competitor.id}>
         <td className='align-middle'>
           <Link href={competitor.link}>
-            <a target="_blank">
+            <a target="_blank" rel="noopener noreferrer">
               <Image src={competitor.logo} alt={`${competitor.name} Logo`} />
             </a>
           </Link>

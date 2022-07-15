@@ -5,8 +5,8 @@ export default function Footer() {
     <footer className={styles.footer}>
       <a
         href="http://www.ic.uff.br/index.php/pt/"
-        target="_blank"
         rel="noopener noreferrer"
+        target="_blank"
       >
         <p>
           Feito por Daniel Lessa e Eduardo Martins

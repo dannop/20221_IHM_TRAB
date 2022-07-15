@@ -53,23 +53,23 @@ export default function AvaliacaoInteracao() {
             </a>
           </div>
 
-          <a href='https://du5i17a4.optimalworkshop.com/chalkmark/j70tw0io' target="_blank">
+          <a href='https://du5i17a4.optimalworkshop.com/chalkmark/j70tw0io' rel="noopener noreferrer" target="_blank">
             <p>1º Questionário</p>
             <Image src={FirstClick01} alt={`First Click 01`} />
             <Image src={FirstClick02} alt={`First Click 02`} />
           </a>
-          <a href='https://3f03w05l.optimalworkshop.com/chalkmark/p02asf3y' target="_blank">
+          <a href='https://3f03w05l.optimalworkshop.com/chalkmark/p02asf3y' rel="noopener noreferrer" target="_blank">
             <p>2º Questionário</p>
             <Image src={FirstClick03} alt={`First Click 03`} />
             <Image src={FirstClick04} alt={`First Click 04`} />
           </a>
-          <a href='https://du5i17a4.optimalworkshop.com/chalkmark/j70tw0io' target="_blank">
+          <a href='https://du5i17a4.optimalworkshop.com/chalkmark/j70tw0io' rel="noopener noreferrer" target="_blank">
             <p>3º Questionário</p>
             <Image src={FirstClick05} alt={`First Click 05`} />
             <Image src={FirstClick06} alt={`First Click 06`} />
           </a>
           
-          <a href='https://o343lrm6.optimalworkshop.com/chalkmark/jzvolb7c' target="_blank">
+          <a href='https://o343lrm6.optimalworkshop.com/chalkmark/jzvolb7c' rel="noopener noreferrer" target="_blank">
             <p>4º Questionário</p>
             <Image src={FirstClick07} alt={`First Click 07`} />
             <Image src={FirstClick08} alt={`First Click 08`} />
