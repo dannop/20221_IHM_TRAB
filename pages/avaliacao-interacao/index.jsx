@@ -152,7 +152,6 @@ export default function AvaliacaoInteracao() {
           <p>Redesign</p>
           <ul>
             <li>Toda a tabela de sugestões serve como Redesign para o aplicativo;</li>
-            <li>Os pontos principais estão marcados de vermelho na planilha;</li>
           </ul>
         </div>  
       </main>
