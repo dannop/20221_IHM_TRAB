@@ -4,7 +4,6 @@ import Link from 'next/link';
 import styles from '../../../styles/Home.module.css';
 
 import Footer from '../../../components/footer';
-import BackNav from '../../../components/back-nav';
 
 export default function AvaliacaoHeuristica() {
   return (
@@ -14,8 +13,6 @@ export default function AvaliacaoHeuristica() {
         <meta name="description" content="Trabalho de IHM" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <BackNav href="/avaliacao-interacao" />
 
       <main className={`${styles.main} container`}>
         <h1 className={styles.title}>

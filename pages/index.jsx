@@ -4,8 +4,9 @@ import Image from 'next/image'
 
 import styles from '../styles/Home.module.css'
 
-import Footer from '../components/footer/index'
 import PayMe from '../assets/images/PayMe.png'
+
+import Footer from '../components/footer/index'
 
 export default function Home() {
   return (
@@ -77,7 +78,7 @@ export default function Home() {
           </Link>
           <Link href="avaliacao-interacao">
             <a className={styles.card}>
-              <h2>Avaliação da interação &rarr;</h2>
+              <h2>Avaliação da Interação &rarr;</h2>
               <p>First Click, Avaliação Heuristica e Teste de Usabilidade.</p>
             </a>
           </Link>

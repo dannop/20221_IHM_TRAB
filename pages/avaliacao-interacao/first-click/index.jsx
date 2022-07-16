@@ -5,7 +5,6 @@ import Link from 'next/link';
 import styles from '../../../styles/Home.module.css';
 
 import Footer from '../../../components/footer';
-import BackNav from '../../../components/back-nav';
 
 import FirstClick01 from '../../../assets/images/first-click/image1.jpg';
 import FirstClick02 from '../../../assets/images/first-click/image2.png';
@@ -24,8 +23,6 @@ export default function FirstCLick() {
         <meta name="description" content="Trabalho de IHM" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <BackNav href="/avaliacao-interacao" />
 
       <main className={`${styles.main} container`}>
         <h1 className={styles.title}>

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Script from "next/script"
+import Header from "../components/header";
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
@@ -19,6 +20,9 @@ function MyApp({ Component, pageProps }) {
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossOrigin="anonymous"
       />
+
+      <Header />
+
       <Component {...pageProps} />
     </>
   )
