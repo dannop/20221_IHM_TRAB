@@ -71,6 +71,15 @@
   font-size: 1.3rem;
 }
 
+.info h2 {
+  font-size: 2.4rem;
+}
+
+
+.info h3 {
+  font-size: 1.6rem;
+}
+
 .code {
   background: #fafafa;
   color:seagreen;
